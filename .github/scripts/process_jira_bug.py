@@ -267,7 +267,7 @@ class JiraGitHubProcessor:
 **Priority:** {fields.get('priority', {}).get('name', 'Medium')}  
 **Status:** {fields.get('status', {}).get('name', 'Unknown')}  
 **Reporter:** {fields.get('reporter', {}).get('displayName', 'Unknown')}  
-**Assignee:** {fields.get('assignee', {}).get('displayName', 'Unassigned')}
+# **Assignee:** {fields.get('assignee', {}).get('displayName', 'Unassigned')}
 
 ## 📝 Description
 {description}
